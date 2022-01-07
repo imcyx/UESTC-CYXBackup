@@ -1,0 +1,10 @@
+test type: PinPmu_T    test name: CON_VCC    pin name: Y4   force : 0.0001   measure value: 0.604969    hi limit: 0.9    lo limit: 0.2    result: Pass
+test type: PinPmu_T    test name: CON_VCC    pin name: Y1   force : 0.0001   measure value: 0.606097    hi limit: 0.9    lo limit: 0.2    result: Pass
+test type: PinPmu_T    test name: CON_VCC    pin name: Y2   force : 0.0001   measure value: 0.609455    hi limit: 0.9    lo limit: 0.2    result: Pass
+test type: PinPmu_T    test name: CON_VCC    pin name: Y3   force : 0.0001   measure value: 0.608627    hi limit: 0.9    lo limit: 0.2    result: Pass
+test type: PinPmu_T    test name: CON_GND    pin name: Y4   force : 0.0001   measure value: 0.606016    hi limit: 0.9    lo limit: 0.2    result: Pass
+test type: PinPmu_T    test name: CON_GND    pin name: Y1   force : 0.0001   measure value: 0.606082    hi limit: 0.9    lo limit: 0.2    result: Pass
+test type: PinPmu_T    test name: CON_GND    pin name: Y2   force : 0.0001   measure value: 0.609519    hi limit: 0.9    lo limit: 0.2    result: Pass
+test type: PinPmu_T    test name: CON_GND    pin name: Y3   force : 0.0001   measure value: 0.609148    hi limit: 0.9    lo limit: 0.2    result: Pass
+test type: Functional_T    test name: FUNC_2V      test result: Pass
+test type: PowerSupply_T    test name: DPS_2V    pin name : VCC    force : 2

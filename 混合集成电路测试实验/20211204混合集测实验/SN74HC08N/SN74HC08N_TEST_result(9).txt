@@ -1,0 +1,80 @@
+test type: PinPmu_T    test name: CON_VCC    pin name: Y3   force : 0.0001   measure value: 0.609147    hi limit: 0.9    lo limit: 0.2    result: Pass
+test type: PinPmu_T    test name: CON_VCC    pin name: Y4   force : 0.0001   measure value: 0.605889    hi limit: 0.9    lo limit: 0.2    result: Pass
+test type: PinPmu_T    test name: CON_VCC    pin name: Y1   force : 0.0001   measure value: 0.605915    hi limit: 0.9    lo limit: 0.2    result: Pass
+test type: PinPmu_T    test name: CON_VCC    pin name: Y2   force : 0.0001   measure value: 0.610570    hi limit: 0.9    lo limit: 0.2    result: Pass
+test type: PinPmu_T    test name: CON_GND    pin name: Y3   force : 0.0001   measure value: 0.609979    hi limit: 0.9    lo limit: 0.2    result: Pass
+test type: PinPmu_T    test name: CON_GND    pin name: Y4   force : 0.0001   measure value: 0.606282    hi limit: 0.9    lo limit: 0.2    result: Pass
+test type: PinPmu_T    test name: CON_GND    pin name: Y1   force : 0.0001   measure value: 0.606493    hi limit: 0.9    lo limit: 0.2    result: Pass
+test type: PinPmu_T    test name: CON_GND    pin name: Y2   force : 0.0001   measure value: 0.610385    hi limit: 0.9    lo limit: 0.2    result: Pass
+test type: Functional_T    test name: FUNC_2V      test result: Pass
+test type: PowerSupply_T    test name: DPS_2V    pin name : VCC    force : 2
+test type: Functional_T    test name: FUNC_4V5      test result: Pass
+test type: PowerSupply_T    test name: DPS_4V5    pin name : VCC    force : 4.5
+test type: Functional_T    test name: FUNC_5V      test result: Pass
+test type: PowerSupply_T    test name: DPS_5V    pin name : VCC    force : 5
+test type: PinPmu_T    test name: IIH    pin name: B2   force : 5   measure value: 0.00    hi limit: 1e-06    lo limit: -1e-06    result: Pass
+test type: PinPmu_T    test name: IIH    pin name: B1   force : 5   measure value: 0.00    hi limit: 1e-06    lo limit: -1e-06    result: Pass
+test type: PinPmu_T    test name: IIH    pin name: A3   force : 5   measure value: 0.00    hi limit: 1e-06    lo limit: -1e-06    result: Pass
+test type: PinPmu_T    test name: IIH    pin name: B4   force : 5   measure value: 0.00    hi limit: 1e-06    lo limit: -1e-06    result: Pass
+test type: PinPmu_T    test name: IIH    pin name: A1   force : 5   measure value: 0.00    hi limit: 1e-06    lo limit: -1e-06    result: Pass
+test type: PinPmu_T    test name: IIH    pin name: A4   force : 5   measure value: 0.00    hi limit: 1e-06    lo limit: -1e-06    result: Pass
+test type: PinPmu_T    test name: IIH    pin name: A2   force : 5   measure value: 0.00    hi limit: 1e-06    lo limit: -1e-06    result: Pass
+test type: PinPmu_T    test name: IIH    pin name: B3   force : 5   measure value: 0.00    hi limit: 1e-06    lo limit: -1e-06    result: Pass
+test type: PinPmu_T    test name: IIL    pin name: B2   force : 0   measure value: 0.00    hi limit: 1e-06    lo limit: -1e-06    result: Pass
+test type: PinPmu_T    test name: IIL    pin name: B1   force : 0   measure value: 0.00    hi limit: 1e-06    lo limit: -1e-06    result: Pass
+test type: PinPmu_T    test name: IIL    pin name: A3   force : 0   measure value: 0.00    hi limit: 1e-06    lo limit: -1e-06    result: Pass
+test type: PinPmu_T    test name: IIL    pin name: B4   force : 0   measure value: 0.00    hi limit: 1e-06    lo limit: -1e-06    result: Pass
+test type: PinPmu_T    test name: IIL    pin name: A1   force : 0   measure value: 0.00    hi limit: 1e-06    lo limit: -1e-06    result: Pass
+test type: PinPmu_T    test name: IIL    pin name: A4   force : 0   measure value: 0.00    hi limit: 1e-06    lo limit: -1e-06    result: Pass
+test type: PinPmu_T    test name: IIL    pin name: A2   force : 0   measure value: 0.00    hi limit: 1e-06    lo limit: -1e-06    result: Pass
+test type: PinPmu_T    test name: IIL    pin name: B3   force : 0   measure value: 0.00    hi limit: 1e-06    lo limit: -1e-06    result: Pass
+test type: PinPmu_T    test name: PRE_AB_2V    pin name: B2   force : 2   measure value: 0.00    hi limit: 0    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: PRE_AB_2V    pin name: B1   force : 2   measure value: 0.00    hi limit: 0    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: PRE_AB_2V    pin name: A3   force : 2   measure value: 0.00    hi limit: 0    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: PRE_AB_2V    pin name: B4   force : 2   measure value: 0.00    hi limit: 0    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: PRE_AB_2V    pin name: A1   force : 2   measure value: 0.00    hi limit: 0    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: PRE_AB_2V    pin name: A4   force : 2   measure value: 0.00    hi limit: 0    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: PRE_AB_2V    pin name: A2   force : 2   measure value: 0.00    hi limit: 0    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: PRE_AB_2V    pin name: B3   force : 2   measure value: 0.00    hi limit: 0    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: VOH_2V_20uA    pin name: Y3   force : -2e-05   measure value: 2.0014558    hi limit: 0    lo limit: 1.7    result: Pass
+test type: PinPmu_T    test name: VOH_2V_20uA    pin name: Y4   force : -2e-05   measure value: 1.9988234    hi limit: 0    lo limit: 1.7    result: Pass
+test type: PinPmu_T    test name: VOH_2V_20uA    pin name: Y1   force : -2e-05   measure value: 1.9987912    hi limit: 0    lo limit: 1.7    result: Pass
+test type: PinPmu_T    test name: VOH_2V_20uA    pin name: Y2   force : -2e-05   measure value: 1.9993781    hi limit: 0    lo limit: 1.7    result: Pass
+test type: PinPmu_T    test name: PRE_AB_4V5    pin name: B2   force : 4.5   measure value: 0.000    hi limit: 0    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: PRE_AB_4V5    pin name: B1   force : 4.5   measure value: 0.000    hi limit: 0    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: PRE_AB_4V5    pin name: A3   force : 4.5   measure value: 0.000    hi limit: 0    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: PRE_AB_4V5    pin name: B4   force : 4.5   measure value: 0.000    hi limit: 0    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: PRE_AB_4V5    pin name: A1   force : 4.5   measure value: 0.000    hi limit: 0    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: PRE_AB_4V5    pin name: A4   force : 4.5   measure value: 0.000    hi limit: 0    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: PRE_AB_4V5    pin name: A2   force : 4.5   measure value: 0.000    hi limit: 0    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: PRE_AB_4V5    pin name: B3   force : 4.5   measure value: 0.000    hi limit: 0    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: VOH_4V5_20uA    pin name: Y3   force : -2e-05   measure value: 4.4897818    hi limit: 0    lo limit: 4.4    result: Pass
+test type: PinPmu_T    test name: VOH_4V5_20uA    pin name: Y4   force : -2e-05   measure value: 4.4909908    hi limit: 0    lo limit: 4.4    result: Pass
+test type: PinPmu_T    test name: VOH_4V5_20uA    pin name: Y1   force : -2e-05   measure value: 4.4848695    hi limit: 0    lo limit: 4.4    result: Pass
+test type: PinPmu_T    test name: VOH_4V5_20uA    pin name: Y2   force : -2e-05   measure value: 4.4826645    hi limit: 0    lo limit: 4.4    result: Pass
+test type: PinPmu_T    test name: VOH_4V5_4mA    pin name: Y3   force : -0.004   measure value: 3.65485    hi limit: 0    lo limit: 3.98    result: Fail
+test type: PinPmu_T    test name: VOH_4V5_4mA    pin name: Y4   force : -0.004   measure value: 3.65971    hi limit: 0    lo limit: 3.98    result: Fail
+test type: PinPmu_T    test name: VOH_4V5_4mA    pin name: Y1   force : -0.004   measure value: 3.54413    hi limit: 0    lo limit: 3.98    result: Fail
+test type: PinPmu_T    test name: VOH_4V5_4mA    pin name: Y2   force : -0.004   measure value: 2.95249    hi limit: 0    lo limit: 3.98    result: Fail
+test type: PinPmu_T    test name: PRE_AB_0V    pin name: B2   force : 0   measure value: 0.00    hi limit: 0    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: PRE_AB_0V    pin name: B1   force : 0   measure value: 0.00    hi limit: 0    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: PRE_AB_0V    pin name: A3   force : 0   measure value: 0.00    hi limit: 0    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: PRE_AB_0V    pin name: B4   force : 0   measure value: 0.00    hi limit: 0    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: PRE_AB_0V    pin name: A1   force : 0   measure value: 0.00    hi limit: 0    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: PRE_AB_0V    pin name: A4   force : 0   measure value: 0.00    hi limit: 0    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: PRE_AB_0V    pin name: A2   force : 0   measure value: 0.00    hi limit: 0    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: PRE_AB_0V    pin name: B3   force : 0   measure value: 0.00    hi limit: 0    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: VOL_2V_20uA    pin name: Y3   force : 2e-05   measure value: 0.0059822    hi limit: 0.1    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: VOL_2V_20uA    pin name: Y4   force : 2e-05   measure value: 0.0020095    hi limit: 0.1    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: VOL_2V_20uA    pin name: Y1   force : 2e-05   measure value: 0.0084949    hi limit: 0.1    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: VOL_2V_20uA    pin name: Y2   force : 2e-05   measure value: 0.0102971    hi limit: 0.1    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: VOL_4V5_20uA    pin name: Y3   force : 2e-05   measure value: 0.0068599    hi limit: 0.1    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: VOL_4V5_20uA    pin name: Y4   force : 2e-05   measure value: 0.0035696    hi limit: 0.1    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: VOL_4V5_20uA    pin name: Y1   force : 2e-05   measure value: 0.0075929    hi limit: 0.1    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: VOL_4V5_20uA    pin name: Y2   force : 2e-05   measure value: 0.0089419    hi limit: 0.1    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: VOL_4V5_4mA    pin name: Y3   force : 0.004   measure value: 0.13155    hi limit: 0.26    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: VOL_4V5_4mA    pin name: Y4   force : 0.004   measure value: 0.16689    hi limit: 0.26    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: VOL_4V5_4mA    pin name: Y1   force : 0.004   measure value: 0.13956    hi limit: 0.26    lo limit: 0    result: Pass
+test type: PinPmu_T    test name: VOL_4V5_4mA    pin name: Y2   force : 0.004   measure value: 0.13609    hi limit: 0.26    lo limit: 0    result: Pass
+test type: Functional_T    test name: VIHL_4V5      test result: Pass
+test type: Functional_T    test name: VIHL_2V      test result: Pass
